@@ -4,99 +4,178 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="URBAN STYLE - Streetwear, identidad y cultura urbana.">
+    <title>URBAN STYLE — Beyond The Ordinary</title>
 
-    <title>URBAN STYLE | Define Your Identity</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;800;900&family=DM+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <header>
+    <!-- LOADER -->
+    <div class="loader">
         <h1>URBAN<span>.</span>STYLE</h1>
-        <nav>
+        <div class="loader-line"></div>
+    </div>
+
+    <!-- HEADER -->
+    <header class="header">
+        <a href="#inicio" class="logo">URBAN<span>.</span>STYLE</a>
+
+        <nav class="nav">
             <a href="#inicio">INICIO</a>
             <a href="#coleccion">COLECCIÓN</a>
+            <a href="#manifiesto">IDENTIDAD</a>
             <a href="#suscripcion">NEWSLETTER</a>
         </nav>
-        <p>EST. 2026 / STREETWEAR</p>
+
+        <a href="#suscripcion" class="header-cta">
+            JOIN US <span>↗</span>
+        </a>
+
+        <button class="menu-toggle" aria-label="Abrir menú">☰</button>
     </header>
 
     <main>
 
-        <!-- PORTADA PRINCIPAL -->
+        <!-- HERO -->
         <section class="hero" id="inicio">
 
-            <div class="hero-image">
-                <img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=2000&q=85" alt="Modelo de moda urbana">
+            <div class="hero-background">
+                <img
+                    src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=2200&q=90"
+                    alt="Editorial de moda urbana">
             </div>
 
-            <div class="hero-overlay"></div>
+            <div class="hero-shade"></div>
 
-            <div class="hero-content">
+            <div class="hero-top">
+                <span>INDEPENDENT STREET CULTURE</span>
+                <span>BOGOTÁ / WORLDWIDE</span>
+            </div>
 
-                <p class="tag">THE NEW STREET CULTURE</p>
+            <div class="hero-content reveal">
 
-                <h2>
-                    DON'T<br>
-                    FOLLOW.<br>
-                    <span>DEFINE.</span>
-                </h2>
+                <div class="hero-label">
+                    <span class="orange-dot"></span>
+                    THE NEW GENERATION OF STREETWEAR
+                </div>
 
-                <p class="hero-description">
-                    Tu estilo no necesita aprobación.
-                    La calle es tu escenario y tu identidad
-                    es tu mejor accesorio.
-                </p>
+                <h1>
+                    NOT MADE<br>
+                    TO <span>FOLLOW.</span>
+                </h1>
 
-                <a href="#coleccion" class="hero-button">
-                    DESCUBRE EL ESTILO →
-                </a>
+                <div class="hero-bottom">
+
+                    <p>
+                        La calle no tiene reglas.<br>
+                        Tu identidad tampoco.
+                    </p>
+
+                    <a href="#coleccion" class="round-button">
+                        <span>EXPLORE</span>
+                        <strong>↘</strong>
+                    </a>
+
+                </div>
 
             </div>
 
-            <div class="hero-number">01 — 03</div>
+            <div class="hero-vertical">YOUR STYLE IS YOUR STATEMENT — 2026</div>
+
+            <div class="hero-index">
+                <span>01</span> / 04
+            </div>
+
+            <div class="scroll-indicator">
+                SCROLL TO DISCOVER <span>↓</span>
+            </div>
 
         </section>
 
-        <!-- COLECCION -->
-        <section class="collection" id="coleccion">
 
-            <div class="section-heading">
+        <!-- MARQUEE -->
+        <section class="marquee">
+            <div class="marquee-track">
+                <span>NO RULES</span><i>✳</i>
+                <span>NO LIMITS</span><i>✳</i>
+                <span>JUST IDENTITY</span><i>✳</i>
+                <span>NO RULES</span><i>✳</i>
+                <span>NO LIMITS</span><i>✳</i>
+                <span>JUST IDENTITY</span><i>✳</i>
+            </div>
+        </section>
+
+
+        <!-- COLLECTION -->
+        <section class="collection section-padding" id="coleccion">
+
+            <div class="section-top reveal">
                 <div>
-                    <p class="tag">EXPLORE YOUR STYLE</p>
-                    <h2>THE STREET<br><span>IS YOURS.</span></h2>
+                    <span class="section-tag">01 / THE COLLECTION</span>
+                    <h2>FIND YOUR<br><span>OWN WAY.</span></h2>
                 </div>
 
-                <p class="section-description">
-                    No vestimos para encajar.<br>
-                    Vestimos para destacar.
+                <p>
+                    No se trata de vestir diferente.<br>
+                    Se trata de ser diferente.
                 </p>
             </div>
 
             <div class="collection-grid">
 
-                <article class="collection-card">
-                    <img src="https://images.unsplash.com/photo-1523398002811-999ca8dec234?auto=format&fit=crop&w=900&q=85" alt="Ropa streetwear">
+                <article class="collection-card card-large reveal">
+                    <div class="card-image">
+                        <img
+                            src="https://images.unsplash.com/photo-1523398002811-999ca8dec234?auto=format&fit=crop&w=1200&q=90"
+                            alt="Colección streetwear">
+                    </div>
+
+                    <div class="card-number">01</div>
+
                     <div class="card-info">
-                        <span>01 / EVERYDAY</span>
+                        <span>EVERYDAY CULTURE</span>
                         <h3>URBAN<br>ESSENTIALS.</h3>
+                        <a href="#suscripcion">DISCOVER ↗</a>
                     </div>
                 </article>
 
-                <article class="collection-card">
-                    <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=900&q=85" alt="Estilo urbano">
+
+                <article class="collection-card reveal">
+                    <div class="card-image">
+                        <img
+                            src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=1000&q=90"
+                            alt="Moda y personalidad">
+                    </div>
+
+                    <div class="card-number">02</div>
+
                     <div class="card-info">
-                        <span>02 / IDENTITY</span>
-                        <h3>OWN YOUR<br>LOOK.</h3>
+                        <span>OWN YOUR IDENTITY</span>
+                        <h3>BE<br>YOURSELF.</h3>
+                        <a href="#suscripcion">DISCOVER ↗</a>
                     </div>
                 </article>
 
-                <article class="collection-card">
-                    <img src="https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=900&q=85" alt="Moda contemporánea">
+
+                <article class="collection-card reveal">
+                    <div class="card-image">
+                        <img
+                            src="https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=1000&q=90"
+                            alt="Moda contemporánea">
+                    </div>
+
+                    <div class="card-number">03</div>
+
                     <div class="card-info">
-                        <span>03 / ATTITUDE</span>
-                        <h3>BREAK THE<br>RULES.</h3>
+                        <span>BREAK THE RULES</span>
+                        <h3>NEVER<br>ORDINARY.</h3>
+                        <a href="#suscripcion">DISCOVER ↗</a>
                     </div>
                 </article>
 
@@ -104,61 +183,120 @@
 
         </section>
 
-        <!-- FRASE -->
-        <section class="manifesto">
-            <p>YOUR IDENTITY.</p>
-            <h2>YOUR <span>MOVEMENT.</span></h2>
-        </section>
 
-        <!-- SUSCRIPCION -->
-        <section class="subscription" id="suscripcion">
+        <!-- MANIFESTO -->
+        <section class="manifesto" id="manifiesto">
 
-            <div class="subscription-image">
-                <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1100&q=85" alt="Moda y estilo urbano">
-                <div class="image-caption">
-                    <span>URBAN STYLE / 2026</span>
-                    <h3>BE<br>DIFFERENT.</h3>
+            <div class="manifesto-bg">IDENTITY</div>
+
+            <div class="manifesto-content reveal">
+                <span class="section-tag">02 / OUR PHILOSOPHY</span>
+
+                <p>WE DON'T FOLLOW</p>
+                <h2>WE <span>DEFINE.</span></h2>
+
+                <div class="manifesto-bottom">
+                    <p>
+                        La moda cambia. Las tendencias desaparecen.
+                        Pero tu identidad permanece.
+                        No necesitas encajar en el mundo.
+                        Necesitas crear el tuyo.
+                    </p>
+
+                    <div class="manifesto-symbol">✳</div>
                 </div>
             </div>
 
-            <div class="subscription-content">
+        </section>
 
-                <p class="tag">JOIN THE MOVEMENT</p>
+
+        <!-- EDITORIAL -->
+        <section class="editorial section-padding">
+
+            <div class="editorial-image reveal">
+                <img
+                    src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1400&q=90"
+                    alt="Editorial de moda urbana">
+
+                <div class="editorial-caption">
+                    <span>URBAN STYLE / EDITORIAL 001</span>
+                    <h3>MAKE<br>YOUR<br>MOVE.</h3>
+                </div>
+            </div>
+
+            <div class="editorial-content reveal">
+                <span class="section-tag">03 / MORE THAN FASHION</span>
 
                 <h2>
-                    BE PART<br>
-                    OF <span>IT.</span>
+                    STYLE IS<br>
+                    AN <span>ATTITUDE.</span>
                 </h2>
 
-                <p class="subscription-description">
-                    El estilo evoluciona constantemente.
-                    Recibe novedades, inspiración, lanzamientos
-                    y contenido exclusivo directamente en tu correo.
+                <p>
+                    Una forma de expresión. Una manera de ver el mundo.
+                    Una declaración sin necesidad de palabras.
+                    Bienvenido a una nueva cultura urbana.
+                </p>
+
+                <div class="editorial-details">
+                    <span>AUTHENTICITY</span>
+                    <span>CREATIVITY</span>
+                    <span>INDIVIDUALITY</span>
+                </div>
+
+                <a href="#suscripcion" class="text-link">
+                    BECOME PART OF IT <span>↗</span>
+                </a>
+            </div>
+
+        </section>
+
+
+        <!-- NEWSLETTER -->
+        <section class="newsletter" id="suscripcion">
+
+            <div class="newsletter-decoration">JOIN THE CULTURE</div>
+
+            <div class="newsletter-inner reveal">
+
+                <span class="section-tag">04 / STAY CONNECTED</span>
+
+                <h2>
+                    GET IN<br>
+                    <span>THE LOOP.</span>
+                </h2>
+
+                <p class="newsletter-description">
+                    Accede a novedades, lanzamientos, inspiración
+                    y contenido exclusivo. La cultura urbana
+                    empieza aquí.
                 </p>
 
                 <form id="formulario">
 
-                    <label for="email">TU CORREO ELECTRÓNICO</label>
+                    <label for="email">YOUR EMAIL ADDRESS</label>
 
-                    <input
-                        type="email"
-                        id="email"
-                        name="email"
-                        placeholder="nombre@correo.com"
-                        required
-                    >
+                    <div class="input-wrapper">
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="nombre@correo.com"
+                            required>
 
-                    <button type="submit" id="boton">
-                        UNIRME A URBAN STYLE →
-                    </button>
+                        <button type="submit" id="boton">
+                            SUSCRIBIRME <span>↗</span>
+                        </button>
+                    </div>
 
-                    <p id="mensaje"></p>
+                    <p id="mensaje" role="status" aria-live="polite"></p>
 
                 </form>
 
-                <p class="privacy">
-                    AL SUSCRIBIRTE ACEPTAS RECIBIR NOVEDADES DE URBAN STYLE.
-                </p>
+                <div class="newsletter-note">
+                    <span>✳</span>
+                    NO SPAM. JUST PURE STREET CULTURE.
+                </div>
 
             </div>
 
@@ -166,14 +304,69 @@
 
     </main>
 
-    <footer>
-        <h2>URBAN<span>.</span>STYLE</h2>
-        <p>DON'T FOLLOW. DEFINE.</p>
-        <span>© 2026 URBAN STYLE. ALL RIGHTS RESERVED.</span>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <div class="footer-main">
+            <a href="#inicio" class="footer-logo">URBAN<span>.</span>STYLE</a>
+
+            <p>DON'T FOLLOW THE WORLD.<br>CREATE YOUR OWN.</p>
+
+            <a href="#inicio" class="back-top">BACK TO TOP ↑</a>
+        </div>
+
+        <div class="footer-bottom">
+            <span>© 2026 URBAN STYLE</span>
+            <span>STREETWEAR / CULTURE / IDENTITY</span>
+            <span>MADE FOR THE DIFFERENT.</span>
+        </div>
+
     </footer>
 
+
+    <!-- EMAILJS -->
     <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <script src="script.js"></script>
+
+    <!-- ANIMATIONS -->
+    <script>
+        // Animacion de entrada
+        window.addEventListener("load", () => {
+            document.body.classList.add("loaded");
+        });
+
+        // Animaciones al desplazarse
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add("visible");
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.12 });
+
+        document.querySelectorAll(".reveal").forEach(element => {
+            observer.observe(element);
+        });
+
+        // Menu para celulares
+        const menuButton = document.querySelector(".menu-toggle");
+        const navigation = document.querySelector(".nav");
+
+        menuButton.addEventListener("click", () => {
+            navigation.classList.toggle("active");
+            menuButton.textContent =
+                navigation.classList.contains("active") ? "✕" : "☰";
+        });
+
+        document.querySelectorAll(".nav a").forEach(link => {
+            link.addEventListener("click", () => {
+                navigation.classList.remove("active");
+                menuButton.textContent = "☰";
+            });
+        });
+    </script>
 
 </body>
 </html>
